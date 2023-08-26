@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/buildrootCourse/assignments-base
+CMAKE_SOURCE_DIR = /home/ubuntu/buildrootCours/assignments-base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/buildrootCourse/assignments-base/build
+CMAKE_BINARY_DIR = /home/ubuntu/buildrootCours/assignments-base/build
 
 # Include any dependencies generated for this target.
 include assignment-autotest/CMakeFiles/assignment-autotest.dir/depend.make
@@ -59,8 +59,8 @@ include assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 
 ../assignment-autotest/test/assignment1/Test_hello_Runner.c: ../assignment-autotest/test/assignment1/Test_hello.c
 ../assignment-autotest/test/assignment1/Test_hello_Runner.c: ../assignment-autotest/test/assignment1/Test_assignment_validate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/buildrootCourse/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/unity_runner.c"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && ../../assignment-autotest/auto_generate.sh test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/buildrootCours/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/unity_runner.c"
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && ../../assignment-autotest/auto_generate.sh test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
 
 ../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c: ../assignment-autotest/test/assignment1/Test_hello_Runner.c
 	@$(CMAKE_COMMAND) -E touch_nocreate ../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
@@ -70,81 +70,81 @@ include assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o: ../assignment-autotest/test/assignment1/Test_hello.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCourse/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o   -c /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_hello.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCours/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o"
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o   -c /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_hello.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.i"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_hello.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.i
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_hello.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.s"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_hello.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.s
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_hello.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o: ../assignment-autotest/test/assignment1/Test_assignment_validate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCourse/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o   -c /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCours/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o"
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o   -c /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.i"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.i
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.s"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.s
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o: ../assignment-autotest/test/assignment1/Test_hello_Runner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCourse/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o   -c /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_hello_Runner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCours/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o"
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o   -c /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_hello_Runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.i"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_hello_Runner.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.i
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_hello_Runner.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.s"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_hello_Runner.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.s
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_hello_Runner.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o: ../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCourse/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o   -c /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCours/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o"
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o   -c /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.i"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.i
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.s"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.s
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o: ../examples/autotest-validate/autotest-validate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCourse/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o   -c /home/ubuntu/buildrootCourse/assignments-base/examples/autotest-validate/autotest-validate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCours/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o"
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o   -c /home/ubuntu/buildrootCours/assignments-base/examples/autotest-validate/autotest-validate.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.i"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCourse/assignments-base/examples/autotest-validate/autotest-validate.c > CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.i
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCours/assignments-base/examples/autotest-validate/autotest-validate.c > CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.s"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCourse/assignments-base/examples/autotest-validate/autotest-validate.c -o CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.s
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCours/assignments-base/examples/autotest-validate/autotest-validate.c -o CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o: ../assignment-autotest/test/unity_runner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCourse/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o   -c /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/unity_runner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/buildrootCours/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o"
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o   -c /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/unity_runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/unity_runner.c.i"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/unity_runner.c > CMakeFiles/assignment-autotest.dir/test/unity_runner.c.i
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/unity_runner.c > CMakeFiles/assignment-autotest.dir/test/unity_runner.c.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/unity_runner.c.s"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/test/unity_runner.c -o CMakeFiles/assignment-autotest.dir/test/unity_runner.c.s
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/buildrootCours/assignments-base/assignment-autotest/test/unity_runner.c -o CMakeFiles/assignment-autotest.dir/test/unity_runner.c.s
 
 # Object files for target assignment-autotest
 assignment__autotest_OBJECTS = \
@@ -167,8 +167,8 @@ assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignme
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make
 assignment-autotest/assignment-autotest: assignment-autotest/Unity/src/libunity.a
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/buildrootCourse/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable assignment-autotest"
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment-autotest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/buildrootCours/assignments-base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable assignment-autotest"
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment-autotest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 assignment-autotest/CMakeFiles/assignment-autotest.dir/build: assignment-autotest/assignment-autotest
@@ -176,12 +176,12 @@ assignment-autotest/CMakeFiles/assignment-autotest.dir/build: assignment-autotes
 .PHONY : assignment-autotest/CMakeFiles/assignment-autotest.dir/build
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/clean:
-	cd /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest && $(CMAKE_COMMAND) -P CMakeFiles/assignment-autotest.dir/cmake_clean.cmake
+	cd /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest && $(CMAKE_COMMAND) -P CMakeFiles/assignment-autotest.dir/cmake_clean.cmake
 .PHONY : assignment-autotest/CMakeFiles/assignment-autotest.dir/clean
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: ../assignment-autotest/test/assignment1/Test_hello_Runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: ../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: ../assignment-autotest/test/unity_runner.c
-	cd /home/ubuntu/buildrootCourse/assignments-base/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/buildrootCourse/assignments-base /home/ubuntu/buildrootCourse/assignments-base/assignment-autotest /home/ubuntu/buildrootCourse/assignments-base/build /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest /home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest/CMakeFiles/assignment-autotest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/buildrootCours/assignments-base/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/buildrootCours/assignments-base /home/ubuntu/buildrootCours/assignments-base/assignment-autotest /home/ubuntu/buildrootCours/assignments-base/build /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest /home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest/CMakeFiles/assignment-autotest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment-autotest/CMakeFiles/assignment-autotest.dir/depend
 

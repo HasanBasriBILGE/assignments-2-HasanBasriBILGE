@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/Unity/src 
+C_INCLUDES = -I/home/ubuntu/buildrootCours/assignments-base/assignment-autotest/Unity/src 
 

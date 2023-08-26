@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/Unity/src/unity.c" "/home/ubuntu/buildrootCourse/assignments-base/build/assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o"
+  "/home/ubuntu/buildrootCours/assignments-base/assignment-autotest/Unity/src/unity.c" "/home/ubuntu/buildrootCours/assignments-base/build/assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

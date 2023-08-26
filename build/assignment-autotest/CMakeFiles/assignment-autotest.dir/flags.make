@@ -6,5 +6,5 @@ C_FLAGS =  -Wall -Werror -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/Unity/src -I/home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/. -I/home/ubuntu/buildrootCourse/assignments-base/assignment-autotest/.. 
+C_INCLUDES = -I/home/ubuntu/buildrootCours/assignments-base/assignment-autotest/Unity/src -I/home/ubuntu/buildrootCours/assignments-base/assignment-autotest/. -I/home/ubuntu/buildrootCours/assignments-base/assignment-autotest/.. 
 
