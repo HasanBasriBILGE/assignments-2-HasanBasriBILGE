@@ -30,7 +30,3 @@ while IFS= read -rd '' file; do
 done < <(find "$filesdir" -type f -print0)
 
 echo "The number of files are $total_files and the number of matching lines are $total_matching_lines"
-<<<<<<< HEAD
-
-=======
->>>>>>> Yeni

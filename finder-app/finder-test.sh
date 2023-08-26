@@ -54,11 +54,7 @@ fi
 
 for i in $( seq 1 $NUMFILES)
 do
-<<<<<<< HEAD
-	./writer.sh "$WRITEDIR/${username}$i.txt" "$WRITESTR"
-=======
 	./writer "$WRITEDIR/${username}$i.txt" "$WRITESTR"
->>>>>>> Yeni
 done
 
 OUTPUTSTRING=$(./finder.sh "$WRITEDIR" "$WRITESTR")
