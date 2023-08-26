@@ -1,24 +1,14 @@
-CC = gcc
-CFLAGS = -Wall -Wextra
-# Check if CROSS_COMPILE is specified
-ifeq ($(CROSS_COMPILE),aarch64-none-linux-gnu-)
-    CC = $(CROSS_COMPILE)gcc
-endif
-
-# Source files and object files
-SRC = writer.c
-OBJ = $(SRC:.c=.o)
+CROSS_COMPILE = aarch64-none-linux-gnu-gcc
+NATIVE = gcc
 TARGET = writer
+SRC = writer.c
 
-# Default target: build the writer application
-all: $(TARGET)
+all: 
+	$(NATIVE) $(SRC) -o $(OBJECTS) $(TARGET)
 
-$(TARGET): $(OBJ)
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^
+arm:
+	$(CROSS_COMPILE) $(SRC) -o $(OBJECTS) $(TARGET)
 
-# Clean target: remove the application and object files
 clean:
-	rm -f $(TARGET) $(OBJ)
-
-.PHONY: all clean
+	rm -rf $(OBJECTS) $(TARGET)
 
