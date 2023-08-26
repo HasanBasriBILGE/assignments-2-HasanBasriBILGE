@@ -51,7 +51,7 @@ fi
 #echo "Removing the old writer utility and compiling as a native application"
 #make clean
 #make
-gcc -o writer writer.c -lsystemd
+gcc -o writer writer.c -L/usr/bin/ld -lsystemd
 for i in $( seq 1 $NUMFILES)
 do
 	./writer "$WRITEDIR/${username}$i.txt" "$WRITESTR"
