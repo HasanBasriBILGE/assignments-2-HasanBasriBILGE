@@ -1,6 +1,5 @@
 CC = gcc
 CFLAGS = -Wall -Wextra
-
 # Check if CROSS_COMPILE is specified
 ifeq ($(CROSS_COMPILE),aarch64-none-linux-gnu-)
     CC = $(CROSS_COMPILE)gcc
